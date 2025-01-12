@@ -7,8 +7,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/springboot_board?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Seoul
-    username: "JyOh"
-    password: "0107"
+    username:
+    password:
   thymeleaf:
     cache: false
 
